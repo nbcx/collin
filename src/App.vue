@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import Vercel from './components/Vercel.vue'
+import Supabase from './components/Supabase.vue'
 </script>
 
 <template>
-  <Vercel />
+  <Supabase />
   <HelloWorld />
 </template>
