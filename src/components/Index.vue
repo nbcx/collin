@@ -3,7 +3,7 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto">
         <div>
-          <h3 class="float-md-start mb-0">Nbcx</h3>
+          <h3 class="float-md-start mb-0">NBCX</h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
             <a
               class="nav-link fw-bold py-1 px-0 active"
@@ -29,6 +29,7 @@
             >Learn more</a
           >
         </p>
+        <Live2D></Live2D>
       </main>
 
       <footer class="mt-auto text-white-50">
@@ -41,7 +42,9 @@
     </div>
   </div>
 </template>
-
+<script setup>
+import Live2D from './L2d.vue'
+</script>
 <style scoped>
 /*
  * Globals
@@ -71,7 +74,6 @@ body {
 /*
  * Header
  */
-
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, 0.5);
   border-bottom: 0.25rem solid transparent;
