@@ -42,14 +42,15 @@
     </div>
   </div>
 </template>
-<script setup>
+
+<script setup lang="ts">
 import Live2D from './L2d.vue'
 </script>
+
 <style scoped>
 /*
  * Globals
  */
-
 /* Custom default button */
 .btn-light,
 .btn-light:hover,
