@@ -14,10 +14,10 @@ Turn your coding agent into a Vercel expert. Simply copy and run this in your te
 npx plugins add vercel/vercel-plugin
 ```
 
-## 本地开发（重点）
+## Local Dev
 
-安装 Vercel CLI：
+Install Vercel CLI：
 npm i -g vercel
 
-启动：
+Run：
 vercel dev
